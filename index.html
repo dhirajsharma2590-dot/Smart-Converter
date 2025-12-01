@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SmartConvert | All-in-One File Tools</title>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,12 +44,15 @@
     "jszip": "https://aistudiocdn.com/jszip@^3.10.1",
     "pdfjs-dist": "https://aistudiocdn.com/pdfjs-dist@^5.4.449",
     "jspdf": "https://esm.sh/jspdf@2.5.1",
-    "tesseract.js": "https://esm.sh/tesseract.js@5.1.0"
+    "tesseract.js": "https://esm.sh/tesseract.js@5.1.0",
+    "vite": "https://aistudiocdn.com/vite@^7.2.4",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
   }
 }
 </script>
 </head>
   <body>
     <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
