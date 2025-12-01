@@ -1,0 +1,5 @@
+{
+  "name": "Smart Converter",
+  "description": "A privacy-focused, unlimited batch PDF to JPG converter with built-in Gemini AI document insights.",
+  "requestFramePermissions": []
+}
